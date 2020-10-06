@@ -16,12 +16,12 @@ int yy;
 int test;
 
  /* Need input loop here */
-    std::cout<< "Please enter the month in mm: ";
-    std::cin>> mm; 
-    std::cout<< "Please enter the day in dd: ";
-    std::cin>> dd;
-    std::cout<< "Please enter the year in yy: ";
-    std::cin>> yy;
+    cout<< "Please enter the month in mm: ";
+    cin>> mm; 
+    cout<< "Please enter the day in dd: ";
+    cin>> dd;
+    cout<< "Please enter the year in yy: ";
+    cin>> yy;
    
 
 
@@ -84,11 +84,11 @@ if (yy != 20)
 /*Checks if the date is valid, if not, outputs "Invalid Date"*/
 if (dCode != 0)
 {
-    std::cout<<"The code for: " << mm <<" " << dd <<" " << yy << " is " <<dCode;
+    cout<<"The code for: " << mm <<" " << dd <<" " << yy << " is " <<dCode;
 };
 if (dCode == 0)
 {
-    std::cout<<"Invalid date";
+    cout<<"Invalid date";
 }
 
 cout<<"\n Press any key to continue.";
